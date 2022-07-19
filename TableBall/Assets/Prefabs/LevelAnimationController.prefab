@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8807993791783030968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8807993791783030974}
+  - component: {fileID: 8807993791783030969}
+  m_Layer: 0
+  m_Name: LevelAnimationController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8807993791783030974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8807993791783030968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 189.41922, y: 509.35333, z: -62.87794}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8807993791783030969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8807993791783030968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c567d2e95892c2498ca1cbcde55f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeAnimation: {fileID: 0}
+  textLevel: {fileID: 0}
+  countDownAnimation: {fileID: 0}
+  textCountDown: {fileID: 0}
+  playerController: {fileID: 0}
+  textTimer: {fileID: 0}
+  timerLeft: 50
+  timerOn: 0
+  gameOverAnimation: {fileID: 0}
+  buttonRestartAnimation: {fileID: 0}
+  buttonLeaveAnimation: {fileID: 0}
+  gameOverAndMenuFade: {fileID: 0}
+  menuButton: {fileID: 0}
+  pauseAnimation: {fileID: 0}
+  buttonContinueAnimation: {fileID: 0}
+  completedAnimation: {fileID: 0}
+  nextButtonAnimation: {fileID: 0}
+  successEffect: {fileID: 0}
+  destructionEffect: {fileID: 0}
